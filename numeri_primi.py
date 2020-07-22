@@ -1,5 +1,7 @@
-'''Dato un limit mi dice tutti i numeri primi fino a limit (incluso)
-   versione senza flag'''
+'''
+   Dato un limit mi dice tutti i numeri primi fino a limit (incluso)
+   versione senza flag
+'''
 limit = 100
 result = []
 for t in range(2, limit+1):

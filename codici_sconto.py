@@ -1,4 +1,8 @@
-
+'''
+    Prendo dei clienti con dei coupon, poi stampo lo sconto
+    che spetta a ciascuno di loro. Metodo per evitare la clausola switch/case
+    (o elif in python)
+'''
 customers = [
     dict(id=1, total=200, coupon_code='F20'),  # F20: fixed, £20
     dict(id=2, total=150, coupon_code='P30'),  # P30: percent, 30%
